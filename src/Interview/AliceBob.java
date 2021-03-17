@@ -32,15 +32,15 @@ public class AliceBob {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        ArrayList<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
-            .collect(toList());
+//        ArrayList<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+//            .map(Integer::parseInt)
+//            .collect(toList());
+//
+//        ArrayList<Integer> b = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+//            .map(Integer::parseInt)
+//            .collect(toList());
 
-        ArrayList<Integer> b = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
-            .collect(toList());
-
-        ArrayList<Integer> result = compareTriplets(a, b);
+//        ArrayList<Integer> result = compareTriplets(a, b);
 
 //        bufferedWriter.write(
 //            result.stream()
