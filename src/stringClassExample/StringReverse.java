@@ -8,7 +8,7 @@ public class StringReverse {
 		StringBuffer stringBfr = new StringBuffer("This is the interview requirement.");
 		
 		stringBfr.reverse();
-		String s = stringBfr.substring(2);
+		String s = stringBfr.substring(1);
 		
 		System.out.println(stringBfr);
 		System.out.println(s);
