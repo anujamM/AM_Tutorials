@@ -36,7 +36,7 @@ public class Iteration {
 		
 		List list = new ArrayList();
 		list.add("hello");
-		list.add(2)
+		list.add(2);
 		System.out.println(list.get(0) instanceof Object);
 		System.out.println(list.get(1) instanceof Object);
 

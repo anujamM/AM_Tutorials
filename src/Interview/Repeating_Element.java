@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class Repeating_Element {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 6, 9, 67, 33, 65, 87, 99};
+		int arr[] = { 1, 6, 9, 67, 33, 65, 87, 99, 99};
 		printFirstRepeating(arr);
 		
 		int[] input = {1, 2, 3, 4, 1, 2, 3, 5, 6, 1, 2};
