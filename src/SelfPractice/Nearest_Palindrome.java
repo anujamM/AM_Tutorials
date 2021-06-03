@@ -4,7 +4,11 @@ public class Nearest_Palindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
+		int n = 131;
+=======
 		int n = 122;
+>>>>>>> a5a935b3cb0e5d2e2471d09f2c69f4e2f34c7df8
 		if (isPalindrome(n)) {
 			System.out.println(n + " is a palindrome number.");
 		} else
