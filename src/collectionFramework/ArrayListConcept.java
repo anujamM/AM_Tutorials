@@ -6,8 +6,10 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListConcept {
+//		public static String name = "abc";
 
 	public static void main(String[] args) {
+//		System.out.println(name);
 		// TODO Auto-generated method stub
 		Employee e1 = new Employee("Anujam", 28, "PA");
 		Employee e2 = new Employee("Amal", 30, "Arch");
@@ -23,9 +25,9 @@ public class ArrayListConcept {
 		Employee e6 = new Employee("Kumar", 10, "Claims");
 
 		ArrayList<Employee> arrList2 = new ArrayList<>();
-		arrList.add(e4);
-		arrList.add(e5);
-		arrList.add(e6);
+		arrList2.add(e4);
+		arrList2.add(e5);
+		arrList2.add(e6);
 		
 		Employee e7 = new Employee("Babai", 28, "PA");
 		arrList.set(0, e7);
