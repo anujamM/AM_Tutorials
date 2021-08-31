@@ -17,32 +17,32 @@ public class Anagram {
 		
 
 		if (input1.length() == input2.length()) {
-//			for(char a: input1.toCharArray()) {
-//				arrList1.add(a);
-//				System.out.println(arrList1);
-//			}
-//			for(char a: input2.toCharArray()) {
-//				arrList2.add(a);
-//				System.out.println(arrList2);
-//		}		
-//			if(arrList1.containsAll(arrList2)) {
-//				System.out.println("Anagram");
-//			}
-//			else
-//				System.out.println("Not!!!");
-//			}
-			List<Character> inp1 = input1.toLowerCase().chars().mapToObj(e->(char)e).collect(Collectors.toList());
-			List<Character> inp2 = input2.toLowerCase().chars().mapToObj(e->(char)e).collect(Collectors.toList());
-			
-			if(inp1.containsAll(inp2) && !input1.equals(input2)){
+			for(char a: input1.toLowerCase().toCharArray()) {
+				arrList1.add(a);
+				System.out.println(arrList1);
+			}
+			for(char a: input2.toLowerCase().toCharArray()) {
+				arrList2.add(a);
+				System.out.println(arrList2);
+		}		
+			if(arrList1.containsAll(arrList2)) {
 				System.out.println("Anagram");
 			}
 			else
-				System.out.println("Not!");
-			
-		}
-		else
-			System.out.println("Length Mismatch!");
+				System.out.println("Not!!!");
+			}
+//			List<Character> inp1 = input1.toLowerCase().chars().mapToObj(e->(char)e).collect(Collectors.toList());
+//			List<Character> inp2 = input2.toLowerCase().chars().mapToObj(e->(char)e).collect(Collectors.toList());
+//			
+//			if(inp1.containsAll(inp2) && !input1.equals(input2)){
+//				System.out.println("Anagram");
+//			}
+//			else
+//				System.out.println("Not!");
+//			
+//		}
+//		else
+//			System.out.println("Length Mismatch!");
 		
 		
 
