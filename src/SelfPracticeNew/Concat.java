@@ -1,9 +1,5 @@
 package SelfPracticeNew;
 
-import java.util.ArrayList;
-
-import org.apache.poi.util.SystemOutLogger;
-
 public class Concat {
 
 //	public static void main(String[] args) {

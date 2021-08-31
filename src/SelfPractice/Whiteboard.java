@@ -3,8 +3,6 @@ package SelfPractice;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.ListDocument.List;
-
 public class Whiteboard {
 
 	// public static int[] addtwo() {
