@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class charFreq {
+public class CharFreq {
 
 	/*
 	 * Can you process an input string to count the frequency of each character and
